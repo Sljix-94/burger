@@ -1,0 +1,13 @@
+.PiceContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+ 
+

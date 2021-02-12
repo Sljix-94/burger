@@ -1,0 +1,42 @@
+.Footer{
+	width: 100%;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 2px solid #ed7925;
+	border-top: 4px solid #e88535;
+}
+.Logo{
+	height: 100px;
+}
+.Content p{
+	font-size: 21px;
+	margin: 3px 0;
+	text-align: center;
+}
+.CopyRights{
+	text-align: center;
+}
+.Icons{
+	width: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+.Icons a{
+	color: #ed7925;
+	text-decoration: none;
+	font-size: 30px;
+	transition: all .2s ease-in;
+}
+.Icons a:hover{
+	color: #ba4f0b
+}
+@media(max-width: 500px){
+	.Footer{
+		flex-direction: column;
+	}
+	.Icons{
+		margin: 15px 0;
+	}
+}

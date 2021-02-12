@@ -1,0 +1,22 @@
+.Acording{
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.AcordingHeader{
+	cursor: pointer;
+	background: #fff;
+	color: black;
+	padding: 1px 6px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+.AcordingHeader i{
+	margin-right: 5px;
+	padding-top: 3px;
+}
+.AcordingBody{
+	padding-left: 25px;
+	width: 57%;
+}

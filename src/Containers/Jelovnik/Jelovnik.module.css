@@ -1,0 +1,17 @@
+.Burger,
+.Slatko,
+.Pice{
+	border-top: 4px solid #e88535;
+	margin:auto;
+	width: 1700px;
+	max-width: 80%;
+}
+.Link{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+.Link i {
+	font-size: 32px;
+	color:  #e88535;
+}

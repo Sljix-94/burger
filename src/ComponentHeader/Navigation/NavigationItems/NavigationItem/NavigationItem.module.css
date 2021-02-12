@@ -1,0 +1,25 @@
+.NavigationItem{
+	margin: 5px 12px;
+}
+
+.NavigationItem a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	transition: all .3s ease-in;
+	color: #da6a15;
+}
+.NavigationItem a:hover{
+	color: #7c3703;
+}
+.active{
+	border: 1px solid  #da6a15;
+	padding: 5px 8px;
+	background: #fff;
+	border-radius: 5px;
+}
+@media(max-width: 500px){
+	.NavigationItem{
+		text-align: center;
+	}
+}

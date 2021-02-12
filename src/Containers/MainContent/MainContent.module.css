@@ -1,0 +1,53 @@
+.Container{
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)), url('../../assets/images/header-back.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Content{
+	margin:auto;
+	width: 1200px;
+	max-width: 90%;
+}
+.Heading{
+	text-align: center;
+	font-size: 48px;
+	/*animation: naslov 3s ease-in infinite;*/
+}
+.Burger,
+.Slatko,
+.Pice{
+	border-top: 4px solid #e88535;
+	margin:auto;
+	width: 1700px;
+	max-width: 80%;
+}
+@media(max-width: 756px){
+	.Heading{
+		font-size: 32px;
+		margin-left: 57px;
+	}
+}
+@keyframes naslov{
+	0%{
+		color: #ffffff;
+	}
+	25%{
+		color: #f6bf91;
+	}
+	50%{
+		color: #f2a05d;
+	}
+	75%{
+		color: #f2984e;
+	}
+	100%{
+		color: #ed7a1b;
+	}
+}
+
+
