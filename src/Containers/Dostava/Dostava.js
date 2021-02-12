@@ -14,7 +14,7 @@ const dostava =(props)=>{
 					<p>3. Nakon odabira, kliknite na dugme “UBACI U KORPU”</p>
 					<p>4. Možete nastaviti kupovinu na isti način ili proveriti KORPU</p>
 					<p>5. U KORPI možete otkazati odabrane proizvode ili završiti kupovinu klikom na NARUČI</p>
-					<p>* Imajte na umu da nažalost NE ISPORUČUJEMO PORUDŽBINE MANJE OD 500 rsd</p>
+					<p>* Imajte na umu da nažalost NE ISPORUČUJEMO PORUDŽBINE MANJE OD 600 rsd</p>
 					<p>6. Na stranici NARUČIVANJE unesite podatke za dostavu</p>
 			</div>}
 			/>
